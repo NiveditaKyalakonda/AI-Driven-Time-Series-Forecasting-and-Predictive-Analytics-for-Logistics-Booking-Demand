@@ -1,0 +1,18 @@
+LOGISTICS BOOKING DEMAND - MODEL EVALUATION
+================================================
+
+Predictions evaluated: 5
+
+MODEL COMPARISON
+            Model          MAE         RMSE       R2  MAPE_Percent
+Gradient Boosting  6823.415982 11331.296750 0.660528     21.179041
+    Decision Tree  7245.133333 12062.130592 0.615326     26.357153
+    Random Forest  9238.189700 10256.709660 0.721862     43.916280
+Linear Regression 12001.152139 16236.015503 0.303047     38.710570
+
+BEST MODEL BY LOWEST MAE
+Model: Gradient Boosting
+MAE: 6823.4160
+RMSE: 11331.2967
+R2: 0.6605
+MAPE: 21.18%

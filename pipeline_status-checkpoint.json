@@ -1,0 +1,11 @@
+{
+  "forecast_method": "selected_ml_model",
+  "history_start": "2026-08-01",
+  "history_end": "2026-08-31",
+  "history_days": 31,
+  "ml_evaluated": true,
+  "selected_model": "Gradient Boosting",
+  "evaluation_rows": 24,
+  "evaluation_test_rows": 5,
+  "evaluation_note": "Exploratory only: a short history makes test metrics unstable."
+}
